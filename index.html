@@ -135,11 +135,11 @@
         var db = indexedDB.open("dummy_indexdb", 1); // iOS 14.6 fix; the call to open indexdb hangs forever otherwise
 
         const buildUrl = "Build";
-        const loaderUrl = buildUrl + "/Builds.loader.js";
+        const loaderUrl = buildUrl + "/build2.loader.js";
         const config = {
-            dataUrl: buildUrl + "/Builds.data.br",
-            frameworkUrl: buildUrl + "/Builds.framework.js.br",
-            codeUrl: buildUrl + "/Builds.wasm.br",
+            dataUrl: buildUrl + "/build2.data.br",
+            frameworkUrl: buildUrl + "/build2.framework.js.br",
+            codeUrl: buildUrl + "/build2.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
             companyName: "DefaultCompany",
             productName: "My project (1)",
